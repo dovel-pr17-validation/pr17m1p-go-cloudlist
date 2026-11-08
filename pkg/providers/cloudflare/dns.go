@@ -104,10 +104,6 @@ func (d *dnsProvider) getDNSRecordMetadata(record *cloudflare.DNSRecord, zone *c
 	}
 	metadata["proxiable"] = fmt.Sprintf("%v", record.Proxiable)
 
-	if record.Locked {
-		metadata["locked"] = "true"
-	}
-
 	if record.Priority != nil {
 		metadata["priority"] = fmt.Sprintf("%d", *record.Priority)
 	}
