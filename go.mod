@@ -6,7 +6,7 @@ require (
 	git.arvancloud.ir/arvancloud/cdn-go-sdk v0.12.1
 	github.com/aliyun/alibaba-cloud-sdk-go v1.62.560
 	github.com/aws/aws-sdk-go v1.55.5
-	github.com/cloudflare/cloudflare-go v0.77.0
+	github.com/cloudflare/cloudflare-go v0.119.0
 	github.com/digitalocean/godo v1.218.0
 	github.com/fastly/go-fastly/v3 v3.12.0
 	github.com/gophercloud/gophercloud v1.7.0
@@ -61,7 +61,7 @@ require (
 	github.com/go-openapi/jsonreference v0.20.4 // indirect
 	github.com/go-openapi/swag v0.22.7 // indirect
 	github.com/go-resty/resty/v2 v2.7.0 // indirect
-	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/goccy/go-json v0.10.5 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
